@@ -1,21 +1,8 @@
-Sample Java Maven
+Comparing Docker Methods
 -----------------
 
-Run Locally (with Java 11 installed):
-```
-./mvnw compile exec:java
-```
-
-Build Docker Container:
-```
-docker build -t comparing-docker-methods:graalvm .
-```
-
-Run Locally with Docker:
-```
-docker run -it -ePORT=8080 -p8080:8080 comparing-docker-methods:graalvm
-```
-
-Run on Cloud Run:
-
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+- [Dockerfile](tree/dockerfile)
+- [Jib](tree/jib)
+- [Jib + Spring Boot](tree/jib-springboot)
+- [Buildpacks](tree/buildpacks)
+- [GraalVM Native Image](tree/graalvm)
