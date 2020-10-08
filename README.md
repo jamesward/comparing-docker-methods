@@ -1,7 +1,7 @@
 Sample Java Maven
 -----------------
 
-Run Locally (with Java 11 installed):
+Run Locally (with Java 8+ installed):
 ```
 ./mvnw compile exec:java
 ```
