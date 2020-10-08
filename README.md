@@ -8,7 +8,7 @@ Run Locally (with Java 8+ installed):
 
 Build Docker Container:
 ```
-pack build --builder=gcr.io/buildpacks/builder:v1 comparing-docker-methods:buildpacks
+pack build --builder=gcr.io/buildpacks/builder:v1 -eGOOGLE_RUNTIME_VERSION=8 comparing-docker-methods:buildpacks
 ```
 
 Run Locally with Docker:
